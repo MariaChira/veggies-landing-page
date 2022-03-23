@@ -12,9 +12,9 @@ import FourZeroFour from "./pages/fourZeroFour/fourZeroFour-component";
 import { library } from "@fortawesome/fontawesome-svg-core";
 
 import {fab} from '@fortawesome/free-brands-svg-icons'
-import { faCoffee,faHome, faMusic, faBiking, faBookReader } from "@fortawesome/free-solid-svg-icons";
+import { faCoffee,faHome, faMusic, faBiking, faBookReader, faLocation } from "@fortawesome/free-solid-svg-icons";
 
-library.add(fab, faCoffee, faHome, faMusic, faBiking, faBookReader)
+library.add(fab, faCoffee, faHome, faMusic, faBiking, faBookReader, faLocation)
 function App() {
  
 
