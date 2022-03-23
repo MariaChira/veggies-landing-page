@@ -1,0 +1,57 @@
+.home-container {
+    width: 100vw;
+    height: 80vh;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px #037F0A;
+    position: absolute;
+    top:75px;
+    left:200px;
+   
+
+}
+
+h1{
+    text-align: end;
+    margin-right: 5rem;
+}
+.wrapper-container{
+    width:70vw;
+    height:60vh;
+    margin:10px auto;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-container{
+width:70%;
+height:100%;
+background-color: aqua;
+}
+.image-container{
+    width:30%;
+    height:100%;
+    background-color: rgb(167, 167, 211);
+}
+.icons-container{
+    width:70vw;
+    height: 5vh;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0.5rem auto;
+   
+}
+.hobby-icon{
+    width:1.5rem;
+    height: 1.5rem;
+    
+}
+
+
+
+@media only screen and (min-width: 600px){
+.home-container{
+    width: 80vw;
+}
+}

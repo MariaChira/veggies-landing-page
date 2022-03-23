@@ -7,9 +7,7 @@
     --bg-secondary: #037F0A;
 }
 
-main {
-    margin-left: 5rem;
-}
+
 ul{
     margin: 0;
     padding: 0;
@@ -19,6 +17,7 @@ ul{
     position: fixed;
     background-color: var(--bg-secondary);
     transition: width 200ms ease;
+    z-index:2;
 }
 .navbar-nav{
     list-style: none;

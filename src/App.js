@@ -2,12 +2,13 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import './App.css';
 
-import Home from "./components/home/home-component";
-import Menu from "./components/menu/menu-component";
-import Ingredients from "./components/ingredients/ingredients-component";
-import Contact from "./components/contact/contact-component";
 import Header from "./components/header/header-component";
-import FourZeroFour from "./components/fourZeroFour/fourZeroFour-component";
+import Home from "./pages/home/home-component";
+import Menu from "./pages/menu/menu-component";
+import Ingredients from "./pages/ingredients/ingredients-component";
+import Contact from "./pages/contact/contact-component";
+import FourZeroFour from "./pages/fourZeroFour/fourZeroFour-component";
+
 
 function App() {
   const links = [
@@ -39,8 +40,8 @@ function App() {
 
   return (
     <div className="App">
-     <h1>Title</h1>
      <Header />
+     <Home />
     
     </div>
   );

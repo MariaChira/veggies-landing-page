@@ -4,12 +4,13 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
+ 
 
 }
 body::-webkit-scrollbar {
-  background: #1e1e24;
+  background: green;
 }
 
 body::-webkit-scrollbar-track {
-background:#037F0A;
+background:#eeeeee;
 }
