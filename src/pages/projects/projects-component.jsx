@@ -1,6 +1,6 @@
-const Menu = () => {
+const Projects = () => {
     return(
         <div className="menu-container"></div>
     )
 }
-export default Menu;
+export default Projects;

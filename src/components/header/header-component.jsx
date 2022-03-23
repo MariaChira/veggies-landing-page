@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import './header-styles.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faProjectDiagram, faBook, faPerson, faPhone } from '@fortawesome/free-solid-svg-icons'
@@ -10,31 +11,31 @@ const Header = () => {
          <nav className="navbar">
         <ul className="navbar-nav">
           <li className="logo">
-            <a href="#" className="nav-link">
+            <Link to="/" className="nav-link">
             <FontAwesomeIcon className="icons" icon={faPerson} />
              <span className="link-title">Maria Chira</span>
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-           <a href="#" className="nav-link">
+          <Link to="/" className="nav-link">
            <FontAwesomeIcon className="icons" icon={faHome} />
             <span className="link-text">About</span>
-           </a>
+          </Link>
          </li> <li className="nav-item">
-           <a href="#" className="nav-link">
+           <Link to="/skills" className="nav-link">
            <FontAwesomeIcon className="icons" icon={faBook} />
             <span className="link-text">Skills</span>
-           </a>
+           </Link>
          </li> <li className="nav-item">
-           <a href="#" className="nav-link">
+           <Link to="projects" className="nav-link">
            <FontAwesomeIcon className="icons" icon={faProjectDiagram} />
             <span className="link-text">Projects</span>
-           </a>
+           </Link>
          </li> <li className="nav-item">
-           <a href="#" className="nav-link">
+           <Link to="/contact" className="nav-link">
            <FontAwesomeIcon className="icons" icon={faPhone} />
             <span className="link-text">Contact</span>
-           </a>
+           </Link>
          </li>
         </ul>
       </nav>
