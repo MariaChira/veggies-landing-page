@@ -53,8 +53,8 @@ const Contact = () => {
         </span>
       </div>
       <div className="contact-details">
-         <FontAwesomeIcon  className="contact-icons" icon={faLocationPin}/> <span>I live in Bucharest, Romania</span><br />
-         <FontAwesomeIcon  className="contact-icons" icon="fa-brands fa-whatsapp"></FontAwesomeIcon> <span>0040 0786 065 963</span>
+         <FontAwesomeIcon  className="contact-icons" icon={faLocationPin}/> <span className="contact-text">I live in Bucharest, Romania</span><br />
+         <FontAwesomeIcon  className="contact-icons" icon="fa-brands fa-whatsapp"></FontAwesomeIcon> <span className="contact-text">0040 0786 065 963</span>
       </div>
     </div>
   );
