@@ -12,7 +12,7 @@ const Header = () => {
           <li className="logo">
             <a href="#" className="nav-link">
             <FontAwesomeIcon className="icons" icon={faPerson} />
-             <span className="link-text">Maria Chira</span>
+             <span className="link-title">Maria Chira</span>
             </a>
           </li>
           <li className="nav-item">
