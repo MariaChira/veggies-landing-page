@@ -16,7 +16,8 @@ ul{
 .navbar{
     position: fixed;
     background-color: var(--bg-secondary);
-    z-index: 5;
+    transition: width 200ms ease;
+    
 }
 .navbar-nav{
     list-style: none;
@@ -26,6 +27,7 @@ ul{
     flex-direction: column;
     align-items:center;
     height: 100%;
+    
 }
 
 .nav-item{
@@ -53,7 +55,7 @@ ul{
 }
 .link-text{
     display: none;
-    margin-left: 1rem;
+    
 }
 
 .navbar:hover .link-text {
@@ -109,11 +111,28 @@ main{
     top:0;
     width: 5rem;
     height: 100vh;
-    transition: width 200ms ease;
+    
  }
  .navbar:hover{
-    width: 16rem;
+    width: 11rem;
 }
 
 
 }
+@media only screen and (max-width:900px){
+    .navbar:hover{
+       width: 9rem;
+   }
+   .nav-link .icons {
+    min-width:2rem;
+    margin: 0 0.3rem 0 1.5rem;
+}
+.link-text{
+    font-size: 0.9rem;
+    
+}
+.link-title{
+    font-size: 1rem;
+    margin-left: 0;
+}
+   }

@@ -15,7 +15,7 @@ const Projects = () => {
                 <div className="project two">
                 <img className='project-image' src='assets/images/beauty-products.jpg' alt='beauty-products'></img>
                     <h3 className='project-name'>Le-Beauty</h3>
-                    <p className='project-text'>For this project I had to follow the design and requirements on <strong>Zeplin</strong>. I had fun doing this project and the resposivness took most of the developing time. I use only <strong>HTML</strong> and <strong>CSS with Bootstrap</strong> for this project.</p>
+                    <p className='project-text'>For this project I had to follow the design and requirements on <strong>Zeplin</strong>. I had fun doing this project and the resposiveness took most of the developing time. I use only <strong>HTML</strong> and <strong>CSS with Bootstrap</strong> for this project.</p>
                     <a href="https://github.com/MariaChira/Medical-website" target="blank" rel='noreferrer'><button class="project-code">View code</button></a></div>
                 <div className="project three">
                 <img className='project-image' src='assets/images/eth.png' alt='ethereum'></img>
@@ -26,7 +26,7 @@ const Projects = () => {
                 <div className="project four">
                 <img className='project-image' src='assets/images/math.jpg' alt='mathematics'></img>
                     <h3 className='project-name'>Math Game</h3>
-                    <p className='project-text'>I love this math-game app because it is the first real working app that I developed when I took a Udemy class and I added features like sounds for right or wrong answers. This was pretty exciting! I used HTML, CSS, <strong>JavaScript</strong> and <strong> jQuery.</strong></p>
+                    <p className='project-text'>I love this math-game app because it is the first real working app that I developed when I took a Udemy class and I added features like sounds for right or wrong answers. I used HTML, CSS, <strong>JavaScript</strong> and <strong> jQuery.</strong></p>
                     <a href="https://github.com/MariaChira/Math-Game" target="_blank" rel='noreferrer'><button class="project-code">View code</button></a>
                 </div>
                 <div className="project five">
