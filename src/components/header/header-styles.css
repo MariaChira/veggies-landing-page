@@ -49,6 +49,7 @@ ul{
 }
 .link-title{
     font-size: 1rem;
+    display: none;
     transition: width 100ms ease;
 }
 .link-text{
@@ -58,7 +59,10 @@ ul{
 .navbar:hover{
     width: 16rem;
 }
-.navbar:hover .link-text{
+.navbar:hover .link-text {
+    display:block;
+}
+.navbar:hover .link-title{
     display:block;
 }
 .logo {

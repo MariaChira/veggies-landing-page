@@ -1,11 +1,11 @@
-import "./home-styles.css";
+import "./about-styles.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMusic, faBiking, faBookReader, faSmile, faPeopleGroup } from '@fortawesome/free-solid-svg-icons'
 
-const Home = () => {
+const About = () => {
   return (
-    <div className="home-container">
-      <h1>About me</h1>
+    <div className="about-container">
+      <h1 className="about-title">About me</h1>
       <div className="wrapper-container">
       <div className="text-container">
         <p className="title">Hi, I'm Maria | Javascript Web Developer</p>
@@ -28,4 +28,4 @@ const Home = () => {
     </div>
   );
 };
-export default Home;
+export default About;

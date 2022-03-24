@@ -29,10 +29,20 @@
     padding-right: 2rem;
 }
 @media only screen and (max-width:600px){
+    div.contact-container{
+        margin-top: 2rem;
+        margin-left: 3.2rem;
+    }
     .contact-text {
         font-size: 0.8rem; 
     }
     .contact-icons {
         font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width:900px){
+    .contact-container{
+        margin-top: 4rem;
+        margin-left: 7.5rem;
     }
 }
