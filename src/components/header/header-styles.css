@@ -16,8 +16,7 @@ ul{
 .navbar{
     position: fixed;
     background-color: var(--bg-secondary);
-    
-    /* z-index:2; */
+    z-index: 5;
 }
 .navbar-nav{
     list-style: none;
@@ -56,9 +55,7 @@ ul{
     display: none;
     margin-left: 1rem;
 }
-.navbar:hover{
-    width: 16rem;
-}
+
 .navbar:hover .link-text {
     display:block;
 }
@@ -87,6 +84,7 @@ ul{
     display: none;
 }
 .link-text{
+    font-size: 0.7rem;
     display:none;
     
 }
@@ -99,6 +97,10 @@ ul{
 main{
     margin:0;
 }
+.nav-link .icons {
+    min-width:1rem;
+    margin: 0 0.5rem;
+}
 }
 
 /* Large screens */
@@ -109,5 +111,9 @@ main{
     height: 100vh;
     transition: width 200ms ease;
  }
+ .navbar:hover{
+    width: 16rem;
+}
+
 
 }
