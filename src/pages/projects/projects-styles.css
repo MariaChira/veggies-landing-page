@@ -54,8 +54,7 @@ button.project-code{
 }
 @media only screen and (max-width:600px) {
     div.projects-container {
-        margin-top: 2rem;
-        margin-left: 3.2rem;
+        margin:2.5rem
         
 }
     div.projects-wrapper{
@@ -65,8 +64,8 @@ button.project-code{
         
     }
     div.project{
-        width:60%;
-        height:80%;
+        width:75%;
+        height:90%;
         margin: 3rem auto;
     }
     .project-image{

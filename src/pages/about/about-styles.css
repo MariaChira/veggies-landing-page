@@ -71,9 +71,14 @@ img {
 
 @media only screen and (max-width: 600px) {
     div.about-container{
-        margin-top: 2rem;
-        margin-left: 3.2rem;
+        margin:2.5rem;
     }
+  div.text-container{
+    width:100%;
+  }
+  div.image-container {
+    width:0%;
+  }
  .hobby-icon {
     width: 1rem;
     height: 1.5rem;
@@ -81,19 +86,22 @@ img {
   }
   button.download {
     float: none;
+    min-width: 80%;
     margin: 2px auto;
   }
   img {
     display: none;
   }
-  h1 {
+  .about-title {
     text-align: center;
+    margin-right:0;
   }
   p.description {
     margin: 1rem auto 1rem;
   }
   p.title {
     margin-bottom: 0;
+    font-size: 1.5rem;
   }
 }
 

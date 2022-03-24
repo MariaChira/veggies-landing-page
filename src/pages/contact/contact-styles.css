@@ -10,9 +10,9 @@
     text-align: center;
 }
 .social-media{
-    width: 100%;
+    width: 80%;
     height: 50%;
-    margin-top: 2rem;
+    margin:2rem auto;
 }
 .contact-text {
     font-size: 1.3rem;
@@ -25,13 +25,11 @@
 }
 .contact-details{
     width:80%;
-    margin-right:2rem;
-    padding-right: 2rem;
+    margin:2rem auto;
 }
 @media only screen and (max-width:600px){
     div.contact-container{
-        margin-top: 2rem;
-        margin-left: 3.2rem;
+        margin:2rem;
     }
     .contact-text {
         font-size: 0.8rem; 
@@ -45,4 +43,11 @@
         margin-top: 4rem;
         margin-left: 7.5rem;
     }
+    .contact-text {
+        font-size: 1rem; 
+    }
+    .contact-icons {
+        font-size: 1.5rem;
+    }
+    
 }
