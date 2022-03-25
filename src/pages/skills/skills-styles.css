@@ -27,6 +27,9 @@
     color:rgb(168, 167, 167);
     font-size: 3rem;
 }
+.tech-icons:hover{
+    color:#037F0A;
+}
 .name-of-icons{
     font-size: 0.8rem;
     
