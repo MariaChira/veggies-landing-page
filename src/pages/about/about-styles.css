@@ -2,7 +2,7 @@
   width: 80vw;
   height: 80vh;
   background-color: white;
-  box-shadow: 0px 0px 20px 0px #037f0a;
+  box-shadow: 0px 0px 30px 0px #DEF8D6;
   margin-left: 15%;
   margin-top: 7%;
 }
@@ -37,8 +37,8 @@ button {
   height: 9%;
   border-radius: 5px;
   border: none;
-  background-color: #037f0a;
-  color: white;
+  background-color: #85AA7B;
+  color: black;
   float: right;
   margin-right: 3rem;
   font-size: 0.9rem;

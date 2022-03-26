@@ -2,7 +2,7 @@
   width: 80vw;
   height: 80vh;
   background-color: white;
-  box-shadow: 0px 0px 20px 0px #037f0a;
+  box-shadow: 0px 0px 30px 0px #DEF8D6;
   margin-left:15%;
   margin-top:6%;
 }
@@ -22,6 +22,12 @@
     font-size: 2rem;
     margin: 1rem 1rem 0 2rem;
     color: black;
+}
+/* .contact-icons:hover{
+    color:#85AA7B;
+} */
+.contact-icons:last-child:hover{
+    color:#85AA7B;
 }
 .contact-details{
     width:80%;

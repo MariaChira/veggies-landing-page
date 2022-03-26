@@ -2,7 +2,7 @@
     width: 80vw;
     height: 80vh;
     background-color: white;
-    box-shadow: 0px 0px 20px 0px #037F0A;
+    box-shadow: 0px 0px 30px 0px #DEF8D6;
     margin-left:15%;
     margin-top:6%;
    
@@ -28,14 +28,14 @@
     font-size: 3rem;
 }
 .tech-icons:hover{
-    color:#037F0A;
+    color:#85AA7B;
 }
 .name-of-icons{
     font-size: 0.8rem;
     
 }
 .tech-title, .soft-title{
-    color:#037F0A;
+    color:#85AA7B;
     margin:0;
 }
 .soft-skills-container{
@@ -51,7 +51,7 @@
 }
 .button-type-skill{
     background-color:white;
-    box-shadow: 0px 0px 5px 0px #037F0A;
+    box-shadow: 0px 0px 5px 0px #85AA7B;
     border-radius:5px;
     color: black;
     width: 80%;
